@@ -11,4 +11,10 @@ public class Computer {
     public int getStorage() {
         return storage;
     }
+
+    public int addStorage(int moreStorage) {
+        this.storage += moreStorage;
+        return this.storage;
+
+    }
 }
