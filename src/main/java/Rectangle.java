@@ -7,4 +7,10 @@ public class Rectangle {
         this.length = inputLength;
         this.width = inputWidth;
     }
+
+    public int area() {
+        return this.length * this.width;
+
+    }
 }
+
