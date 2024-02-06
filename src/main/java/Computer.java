@@ -7,4 +7,8 @@ public class Computer {
         this.storage = inputStorage;
         this.printerModel = inputPrinterModel;
     }
+
+    public int getStorage() {
+        return storage;
+    }
 }
