@@ -25,4 +25,10 @@ public class Computer {
     public String getPrinterModel() {
         return printerModel;
     }
+
+    public void printMessage(String printerMessage) {
+        if (this.printerModel != null) {
+            System.out.println(printerMessage);
+        }
+    }
 }
