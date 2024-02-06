@@ -17,4 +17,12 @@ public class Computer {
         return this.storage;
 
     }
+
+    public void setPrinterModel(String printerModel) {
+        this.printerModel = printerModel;
+    }
+
+    public String getPrinterModel() {
+        return printerModel;
+    }
 }

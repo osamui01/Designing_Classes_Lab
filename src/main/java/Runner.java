@@ -39,11 +39,11 @@ public class Runner {
         int newStorage = computer.getStorage();
         System.out.println("Computer now has " + newStorage + "GB storage");
 
-        // 4. Use a setter to update the computer's printer property
-//        <CALL YOUR METHOD HERE>
+        // 4. Use a setter to update the computer's printer proper
+        computer.setPrinterModel("Epson");
         // Write a getter and use it below to check that the setter worked
-//        String currentPrinter = <GETTER>;
-//        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
+        String currentPrinter = computer.getPrinterModel();
+        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
 
         // 5. Write a method to print a message.
         // To test this works *without* a printer too you can comment out the code for question 4
